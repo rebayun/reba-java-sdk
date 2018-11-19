@@ -6,17 +6,17 @@
  
 ```xml
 <dependency>
-    <groupId>com.github.100sms</groupId>
-    <artifactId>Reba-sms-java-sdk</artifactId>
-    <version>1.0.2</version>
+    <groupId>com.github.rebayun</groupId>
+    <artifactId>reba-sms-java-sdk</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
-*如果非maven项目可手动<a target="_blank" href="http://search.maven.org/#search%7Cga%7C1%7Ccom.github.100sms">获取jar包</a>*
+*如果非maven项目可手动<a target="_blank" href="http://search.maven.org/#search%7Cga%7C1%7Ccom.github.rebayun">获取jar包</a>*
 
  - 调用方法
  
 ```Java
- private static final String serverUrl = "https://sms.100sms.cn/api";
+ private static final String serverUrl = "https://sms.rebayun.com/api";
  private static final String apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";//修改为您的apikey
  private static final RebaClient client = new DefaultRebaClient(serverUrl, apikey);
 
@@ -39,4 +39,4 @@
 
  - 请使用jdk1.7或更高版本
  - 测试sdk请使用RebaClientTest类,http请求测试请使用JavaSmsApiSample类
- - 详细api文档请参考https://www.100sms.cn/api1.0/document
+ - 详细api文档请参考https://www.rebayun.com/api1.0/document
