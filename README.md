@@ -16,7 +16,7 @@
  - 调用方法
  
 ```Java
- private static final String serverUrl = "https://sms.rebayun.com/api";
+ private static final String serverUrl = "https://api.100sms.cn/api";
  private static final String apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";//修改为您的apikey
  private static final RebaClient client = new DefaultRebaClient(serverUrl, apikey);
 
@@ -39,4 +39,4 @@
 
  - 请使用jdk1.7或更高版本
  - 测试sdk请使用RebaClientTest类,http请求测试请使用JavaSmsApiSample类
- - 详细api文档请参考https://www.rebayun.com/api1.0/document
+ - 详细api文档请参考https://www.100sms.cn/APIDocumentation
